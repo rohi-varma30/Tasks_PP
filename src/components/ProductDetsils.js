@@ -128,7 +128,7 @@ const Details = ({ productId, onBack }) => {
         <div>
           <img
             src={product.thumbnail}
-            alt={product.title}
+            alt={product.title}    
             style={{
               width: '500px', height: '500px', objectFit: 'cover',
               borderRadius: '8px', backgroundColor: 'grey', marginTop: '10px'
