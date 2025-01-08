@@ -117,6 +117,7 @@ const Details = ({ productId, onBack }) => {
   if (!product) {
     return <p>No product details found.</p>;
   }
+  console.log("link")
 
   return (
     <div style={{ padding: '20px', height: '70vh', overflow: 'hidden' }}>
