@@ -122,7 +122,7 @@ const Details = ({ productId, onBack }) => {
   return (
     <div style={{ padding: '20px', height: '70vh', overflow: 'hidden' }}>
       <Button onClick={onBack} style={{ marginBottom: '10px' }}>
-        Back to Products
+        Back to Products  
       </Button>
       <div style={{ display: 'flex', gap: '30px' }}>
         <div>
