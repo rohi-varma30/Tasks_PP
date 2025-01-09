@@ -14,7 +14,7 @@ const SkeletonSection = () => {
               <Skeleton.Image style={{ width: 300, height: "100%" }} />   
             </div>
           }
-        >
+        >  
           <Skeleton  paragraph={{ rows: 6 }} />
         </Card>
       ))}
