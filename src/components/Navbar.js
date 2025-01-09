@@ -9,7 +9,7 @@ const Navbar = ()=>{
       <img src={dropdown} alt="image" className='dropd'/>
     </button>
   );
-  const NotificationIcon = () => (
+  const NotificationIcon = () => (  
     <div className="notification-container">
       <div className="circle"> 
         <FontAwesomeIcon icon={faBell} className="bell-icon" />
