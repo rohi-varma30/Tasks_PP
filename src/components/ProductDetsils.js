@@ -258,7 +258,7 @@ const Details = ({ productId, onBack }) => {
       return [...prevItems, { ...product, quantity: 1 }];
     });
     toast.success(`${product.title} added to cart!`);
-    setShowPaymentOptions(true); // Show payment options after adding to cart
+    setShowPaymentOptions(true); 
   };
 
   const handleRemoveFromCart = (id, name) => {
@@ -277,21 +277,21 @@ const Details = ({ productId, onBack }) => {
   };
 
   const handleUPIPayment = () => {
-    setShowUPIScanner(true); // Show UPI scanner
+    setShowUPIScanner(true); 
   };
 
   const handleMockPaymentConfirmation = () => {
     setIsProcessingPayment(true);
     toast.info(`Processing UPI payment...`);
 
-    // Simulate payment processing delay
+
     setTimeout(() => {
       toast.success(`UPI Payment successful!`);
-      setCartItems([]); // Clear cart on successful payment
+      setCartItems([]); 
       localStorage.removeItem('cartItems');
       setIsProcessingPayment(false);
       setShowUPIScanner(false);
-    }, 3000); // Simulate 3-second delay for payment processing
+    }, 3000); 
   };
 
   const renderReviews = () => {
@@ -402,6 +402,7 @@ const Details = ({ productId, onBack }) => {
               <Button className='btn' onClick={handleAddToCart}>
                 Add to Cart
               </Button>
+              
             </div>
             {cartItems.length > 0 && (
               <div>
@@ -415,6 +416,7 @@ const Details = ({ productId, onBack }) => {
           </div>
           {showPaymentOptions && (
             <div>
+              <Button className='btn' onClick={handleMockPaymentConfirmation} style={{marginBottom:"30px"}}>Buy Now</Button>
               <h3>Select Payment Method:</h3>
               <Button onClick={handleUPIPayment} disabled={isProcessingPayment}>Pay with UPI</Button>
   
