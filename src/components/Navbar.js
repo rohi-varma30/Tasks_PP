@@ -11,7 +11,7 @@ const Navbar = ()=>{
   );
   const NotificationIcon = () => (
     <div className="notification-container">
-      <div className="circle">
+      <div className="circle"> 
         <FontAwesomeIcon icon={faBell} className="bell-icon" />
       </div>
       <span className="notification-badge">3</span>
@@ -41,7 +41,7 @@ const Navbar = ()=>{
     </div>
     <div>
         <hr id="uline" />
-    </div>
+    </div>  
    </header>
     </>
   );
