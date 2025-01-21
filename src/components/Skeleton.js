@@ -21,5 +21,4 @@ const SkeletonSection = () => {
     </div>
   );
 };
-
 export default SkeletonSection;
