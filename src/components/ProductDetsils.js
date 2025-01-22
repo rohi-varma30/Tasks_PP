@@ -5,7 +5,7 @@ import { CaretUpOutlined, CaretDownOutlined, DeleteOutlined } from '@ant-design/
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const Details = ({ productId, onBack }) => {
+const Details = ({ productId ,onBack}) => {
   const [product, setProduct] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showInfo, setShowInfo] = useState(false);

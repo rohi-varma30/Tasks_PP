@@ -1,13 +1,9 @@
-  body,
-  p {
+  body,  p {
     font: normal normal medium 22px/27px Figtree;
   }
-
-  p,
-  h5 {
+  p,h5 {
     font-family: 'Figtree';
   }
-
   h5{
     font-size: 1rem;
     font-family: "Figtree";
@@ -23,7 +19,6 @@
     align-items: center;
     justify-content: space-between;
   }
-
   .nav-header {
     display: flex;
     justify-content: space-between;
@@ -31,7 +26,6 @@
     padding: 1rem;
     background-color: #f5f5f5;
   }
-
   .header-container {
     display: flex;
     justify-content: space-between;
@@ -41,7 +35,6 @@
     background-color: #F9F9F9;
     border-bottom: 1px solid #e5e5e5;
   }
-
   .notification {
     position: relative;
     display: flex;
@@ -49,12 +42,10 @@
     align-items: center;
     border-radius: 50%;
   }
-
   .bell-icon {
     font-size: 1.2rem;
     color: #333;
   }
-
   .nav-header {
     display: flex;
     justify-content: space-between;
@@ -62,7 +53,6 @@
     padding: 1rem;
     background-color: #f5f5f5;
   }
-
   .oval-button-1 {
     border: none;
     border-radius: 25px;
@@ -76,7 +66,6 @@
     gap: 0.5rem;
     cursor: pointer;
   }
-
   .oval-button {
     border: none;
     border-radius: 25px;
@@ -90,7 +79,6 @@
     gap: 0.5rem;
     cursor: pointer;
   }
-
   .notification-badge {
     position: absolute;
     top: -5px;
@@ -101,7 +89,6 @@
     padding: 0.1rem 0.4rem;
     font-size: 0.8rem;
   }
-
   .user-profile {
     display: flex;
     justify-content: flex-end;
@@ -109,7 +96,6 @@
     gap: 14px;
     margin-top: 0rem;
   }
-
   .user-initial {
     background-color: #F4FAF9;
     color: black;
@@ -121,18 +107,15 @@
     border-radius: 50%;
     font-weight: bold;
   }
-
   .user-name {
     margin-top: -5px;
     font-weight: bold;
   }
-
   .notification-container {
     position: relative;
     display: flex;
     align-items: center;
   }
-
   .circle {
     background-color: #F4FAF9;
     border-radius: 50%;
@@ -142,7 +125,6 @@
     align-items: center;
     justify-content: center;
   }
-
   .nav-section {
     border: 1px solid black;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -152,19 +134,16 @@
     opacity: 1;
     border-radius: 12px 12px 0px 0px;
   }
-
   #uline {
     width: 5rem;
     height: 0.3125rem;
     margin: -0.5rem 0 0 1.125rem;
     background: #6AE3C6 0% 0% no-repeat padding-box;
   }
-
   .dropd {
     margin-right: 1.5rem;
     padding-left: 0.7rem;
   }
-
   .card {
     margin-top: 2rem;
     margin-left: 0rem;
@@ -173,7 +152,6 @@
     flex: 0 1 calc(18% - 1px);
     box-sizing: border-box;
   }
-
   .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -181,15 +159,12 @@
     justify-content: center;
     padding-bottom: 2rem;
   }
-
   .ant-skeleton.ant-skeleton-element .ant-skeleton-image {
     background-color: transparent !important;
   }
-
   .ant-skeleton.ant-skeleton-element .ant-skeleton-image .ant-skeleton-image-path {
     width: 4rem !important;
   }
-
   .button-1 {
     margin-top: 1rem;
     height: 30px;
@@ -197,13 +172,11 @@
     background-color: #6AE3C6;
     margin-bottom: 2rem;
   }
-
   .product-details {
     flex: 1;
     overflow-y: auto;
     height: 500px;
   }
-
   .btn {
     background-color: orange;
     height: 2.8rem;
@@ -212,29 +185,22 @@
     font-family: 'Figtree';
     font-size: large;
   }
-
   .btn-2 {
     background-color: #6AE3C6;
     width: 9rem;
     color: white;
     margin-right: 1rem;
   }
-  
-
   .rating-price {
     font-size: 2.4rem;
     margin:-7.6rem 0 1rem 0;
   }
-
   .cart-item {
     display: flex;
     align-items: center;
     gap: 1rem;
-
   }
-
-  .items,
-  .cart-title {
+  .items,.cart-title {
     opacity: 2;
     border-radius: 2.5rem;
     margin-left: 27rem;
@@ -259,17 +225,13 @@
     opacity: 1;
     border-radius: 0.8rem;
   }
-
   .flex {
     display: flex;
     align-items: center;
-
   }
-
   .flex-direction {
     flex-direction: column;
   }
-
   .new {
     width: 14rem;
   }
