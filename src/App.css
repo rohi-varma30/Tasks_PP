@@ -5,15 +5,13 @@
     font-family: 'Figtree';
   }
   h5{
-    font-size: 1rem;
+    font-size: 1rem; 
     font-family: "Figtree";
     font-weight: normal;
   }
   .title {
-    margin-top: 1rem;
-    margin-left: 2rem;
+    margin:0;
     font-size: 1.5rem;
-    margin-left: 0rem;
     display: flex;
     font-family: "Figtree", serif;
     align-items: center;
@@ -145,8 +143,7 @@
     padding-left: 0.7rem;
   }
   .card {
-    margin-top: 2rem;
-    margin-left: 0rem;
+    margin: 2rem 0 0 0rem;
     padding: 1rem;
     width: 200px;
     flex: 0 1 calc(18% - 1px);
@@ -237,8 +234,7 @@
   }
   .cart-title-1
   {
-    margin-left: 4rem;
-    margin-bottom: 0rem;
+    margin: 1.3rem 0 0rem 4rem;
   }
   .cart-title
   {
