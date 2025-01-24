@@ -6,7 +6,7 @@ const Navbar = ()=>{
   const MozatoButton = ()=>(
     <button type="button" className="oval-button-1" style={{ fontWeight: "bold" }}>
       Mozato Com...
-      <img src={dropdown} alt="image" className='dropd'/>
+      <img src={dropdown} alt="images" className='dropd'/>
     </button>
   );
   const NotificationIcon = () => (  
@@ -19,7 +19,7 @@ const Navbar = ()=>{
   );
 
   return (
-    <>
+    <>      
     <header className="nav-header">
         <h1 className="title">Products</h1>
         <div className="user-profile">
@@ -46,4 +46,4 @@ const Navbar = ()=>{
     </>
   );
 };
-export default Navbar;
+export default Navbar;  

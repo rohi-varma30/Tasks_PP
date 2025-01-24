@@ -15,7 +15,7 @@ const SkeletonSection = () => {
             </div>
           }
         >  
-          <Skeleton  paragraph={{ rows: 6 }} />
+          <Skeleton  paragraph={{ rows:6 }} />
         </Card>
       ))}
     </div>

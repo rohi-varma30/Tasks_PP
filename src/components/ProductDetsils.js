@@ -101,7 +101,7 @@ const Details = ({ productId ,onBack}) => {
           onClick={() =>
             handleRemoveFromCart(item.id, item.title)} 
           style={{ border: 'none' }} 
-        />
+        />                          
       </div>
     ));
   };
@@ -120,10 +120,8 @@ const Details = ({ productId ,onBack}) => {
       <div style={{ display: 'flex', gap: '30px' }}>
         <div>
           <img
-            src={product.thumbnail}
-            alt={product.title}    
-            style={{
-              width: '500px', height: '500px', objectFit: 'cover',
+            src={product.thumbnail}  alt={product.title}    
+            style={{  width: '500px', height: '500px', objectFit: 'cover',
               borderRadius: '8px', backgroundColor: 'grey', marginTop: '10px'
             }}
           />
@@ -136,7 +134,7 @@ const Details = ({ productId ,onBack}) => {
             {showInfo ? 'Hide Info' : 'Show Info'}
           </Button>
           <Button className='btn-2' type="button" onClick={() => setShowReview(!showReview)}>
-            {showReview ? 'Hide Reviews' : 'Show Reviews'}
+            {showReview ? 'Hide Reviews': 'Show Reviews'}
           </Button>
           {showInfo && (
             <div>
